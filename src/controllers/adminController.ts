@@ -145,3 +145,7 @@ export const deleteAdmin = async (req: Request, res: Response) => {
         })
     }
 }
+
+export const test = async(req:Request, res:Response)=>{
+    console.log()
+}
